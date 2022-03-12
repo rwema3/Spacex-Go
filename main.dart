@@ -103,4 +103,4 @@ class CherryApp extends StatelessWidget {
           darkTheme: context.watch<ThemeCubit>().darkTheme,
           themeMode: context.watch<ThemeCubit>().themeMode,
           onGenerateRoute: Routes.generateRoute,
-          onUnknownRoute: Ro
+          onUnknownRoute: R
