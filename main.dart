@@ -112,5 +112,4 @@ class CherryApp extends StatelessWidget {
             GlobalWidgetsLocalizations.
       ),
     );
-  
 }
