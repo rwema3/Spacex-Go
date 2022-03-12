@@ -109,8 +109,7 @@ class CherryApp extends StatelessWidget {
               translationLoader: FileTranslationLoader(),
             )..load(null),
             GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate
-          
+            GlobalWidgetsLocalizations.delegat
       ),
     );
   }
