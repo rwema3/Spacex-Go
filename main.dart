@@ -111,5 +111,5 @@ class CherryApp extends StatelessWidget {
             GlobalMaterialLocalizations.delegate,
             GlobalWidgetsLocalizations.
       ),
-    );
+    
 }
