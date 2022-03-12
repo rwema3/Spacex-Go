@@ -98,7 +98,7 @@ class CherryApp extends StatelessWidget {
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
         builder: (context, state) => MaterialApp(
-          title: 'SpaceX GO!',
+          title: 'SpaceX GO!'
           theme: context.watch<ThemeCubit>().lightTheme,
           darkTheme: context.watch<ThemeCubit>().darkTheme,
           themeMode: context.watch<ThemeCubit>().themeMode,
