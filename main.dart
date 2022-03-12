@@ -105,7 +105,7 @@ class CherryApp extends StatelessWidget {
           onGenerateRoute: Routes.generateRoute,
           onUnknownRoute: Routes.errorRoute,
           localizationsDelegates: [
-            FlutterI18nDelegate(
+            FlutterI18nDelegate
               translationLoader: FileTranslationLoader(),
             )..load(null),
-            Gl
+            G
