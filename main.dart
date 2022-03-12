@@ -105,4 +105,3 @@ class CherryApp extends StatelessWidget {
           onGenerateRoute: Routes.generateRoute,
           onUnknownRoute: Routes.errorRoute,
           localizationsDelegates: [
-            
