@@ -52,6 +52,6 @@ There you go, you can now open & edit the project. Enjoy!
 - [Android Studio](https://developer.android.com/studio/index.html/) - Tools for building apps on every type of Android device.
 - [Visual Studio Code](https://code.visualstudio.com/) - Code editing. Redefined.
 
-## Authors
+## Author
 
 - **Dominique Rwema Bagirishya** - lead developer: [GitHub](https://github.com/rwema3), [Twitter](https://twitter.com/R_w_e_m_a)
