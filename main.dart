@@ -107,5 +107,5 @@ class CherryApp extends StatelessWidget {
           localizationsDelegates: [
             FlutterI18nDelegate
               translationLoader: FileTranslationLoader(),
-            )..load(null),
+            )..load(null)
             
