@@ -99,4 +99,4 @@ class CherryApp extends StatelessWidget {
         listener: (context, state) => null,
         builder: (context, state) => MaterialApp(
           title: 'SpaceX GO!'
-          theme: context.watch<ThemeCubit>().li
+          theme: context.watch<ThemeCubit>().l
