@@ -97,4 +97,4 @@ class CherryApp extends StatelessWidget {
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
-        builder: (context, state) => M
+        builder: (context, state) =>
