@@ -100,4 +100,3 @@ class CherryApp extends StatelessWidget {
         builder: (context, state) => MaterialApp(
           title: 'SpaceX GO!'
           theme: context.watch<ThemeCubit>().lightTheme,
-          darkTheme: context.watch<ThemeCubit>().da
