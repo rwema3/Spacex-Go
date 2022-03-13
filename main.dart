@@ -101,4 +101,4 @@ class CherryApp extends StatelessWidget {
           title: 'SpaceX GO!'
           theme: context.watch<ThemeCubit>().lightTheme,
           darkTheme: context.watch<ThemeCubit>().darkTheme,
-          themeMode: context.watch<ThemeC
+          themeMode: context.watch<Theme
