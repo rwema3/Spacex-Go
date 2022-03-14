@@ -47,7 +47,6 @@ Future<void> main() async {
       AchievementsService(httpClient),
     ),
     companyRepository: CompanyRepository(
-      CompanyService(httpClient),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
