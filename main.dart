@@ -16,7 +16,7 @@ import 'utils/index.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   HydratedBloc.storage = await HydratedStorage.build(
-    storageDirectory: kIsW
+    storageDirectory: kIs
   Bloc.observer = CherryBlocObserver();
 
   final httpClient = Dio();
