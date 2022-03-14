@@ -22,7 +22,6 @@ Future<void> main() async {
           notificationDetails: NotificationDetails(
             android: AndroidNotificationDetails(
               'channel.launches',
-              'Launches notifications',
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
