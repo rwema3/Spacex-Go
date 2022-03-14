@@ -73,8 +73,7 @@ class CherryApp extends StatelessWidget {
     this.changelogRepository,
   });
 
-  @override
-  Widg
+  @ove
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
         builder: (context, state) =>
