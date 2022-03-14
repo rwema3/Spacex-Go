@@ -18,7 +18,6 @@ Future<void> main() async {
   final notificationsCubit = kIsWeb
       ? null
       : NotificationsCubit(
-          FlutterLocalNotificationsPlugin(),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
