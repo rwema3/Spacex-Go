@@ -40,7 +40,6 @@ Future<void> main() async {
     vehiclesRepository: VehiclesRepository(
       VehiclesService(httpClient),
     ),
-    launchesRepository: LaunchesRepository(
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
