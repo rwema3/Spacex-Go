@@ -19,7 +19,6 @@ Future<void> main() async {
     storageDirectory: kIsWeb
         ? HydratedStorage.webStorageDirectory
         : await getTemporaryDirectory(),
- 
   Bloc.observer = CherryBlocObserver();
 
   final httpClient = Dio();
