@@ -45,7 +45,6 @@ Future<void> main() async {
     ),
     achievementsRepository: AchievementsRepository(
       AchievementsService(httpClient),
-    ),
 BlocProvider(create: (_) => ChangelogCubit(changelogRepository)),
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
