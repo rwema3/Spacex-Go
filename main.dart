@@ -75,8 +75,7 @@ class CherryApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      
+    re
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
         builder: (context, state) =>
