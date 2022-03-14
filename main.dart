@@ -37,8 +37,6 @@ Future<void> main() async {
 
   runApp(CherryApp(
     notificationsCubit: notificationsCubit,
-    vehiclesRepository: VehiclesRepository(
-      VehiclesService(httpClient),
 
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
