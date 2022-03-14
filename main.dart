@@ -42,7 +42,6 @@ Future<void> main() async {
     ),
     launchesRepository: LaunchesRepository(
       LaunchesService(httpClient),
-    ),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
