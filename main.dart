@@ -33,7 +33,6 @@ Future<void> main() async {
             iOS: IOSInitializationSettings(),
           ),
         );
-  await notificationsCubit?.init();
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
