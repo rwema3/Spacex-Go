@@ -15,7 +15,7 @@ import 'utils/index.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  HydratedBloc.storage = await HydratedStorag
+  HydratedBloc.storage = await HydratedStora
   final httpClient = Dio();
   final notificationsCubit = kIsWeb
       ? null
