@@ -21,14 +21,6 @@ Future<void> main() async {
           FlutterLocalNotificationsPlugin(),
           notificationDetails: NotificationDetails(
             android: AndroidNotificationDetails(
-              'channel.launches',
-              'Launches notifications',
-              'Stay up-to-date with upcoming SpaceX launches',
-              importance: Importance.high,
-            ),
-            iOS: IOSNotificationDetails(),
 
-      ],
-      child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
         builder: (context, state) =>
