@@ -51,7 +51,6 @@ Future<void> main() async {
     ),
     changelogRepository: ChangelogRepository(
       ChangelogService(httpClient),
-    ),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
