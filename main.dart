@@ -79,7 +79,6 @@ class CherryApp extends StatelessWidget {
       providers: [
         BlocProvider(create: (_) => ThemeCubit()),
         BlocProvider(create: (_) => ImageQualityCubit()),
-        BlocProvider(create: (_) => BrowserCubit()),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
