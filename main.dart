@@ -17,7 +17,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   HydratedBloc.storage = await HydratedStorage.build(
     storageDirectory: kIs
-  B
+  
   final httpClient = Dio();
   final notificationsCubit = kIsWeb
       ? null
