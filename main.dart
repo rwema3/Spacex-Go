@@ -53,8 +53,6 @@ Future<void> main() async {
       ChangelogService(httpClient),
     ),
   ));
-}
-
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
