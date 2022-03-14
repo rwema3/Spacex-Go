@@ -77,7 +77,6 @@ class CherryApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider(create: (_) => ThemeCubit()),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
