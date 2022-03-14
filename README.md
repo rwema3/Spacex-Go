@@ -37,7 +37,7 @@ This project has been built using the [Flutter](https://flutter.io/) framework, 
 First, clone the repository with the 'clone' command, or just download the zip.
 
 ```
-$ git clone git@github.com:jesusrp98/Spacex-Go.git
+$ git clone git@github.com:rwema3/Spacex-Go.git
 ```
 
 Then, download either Android Studio or Visual Studio Code, with their respective [Flutter editor plugins](https://flutter.io/get-started/editor/). For more information about Flutter installation procedure, check the [official install guide](https://flutter.io/get-started/install/).
