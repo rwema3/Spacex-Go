@@ -17,10 +17,6 @@ Future<void> main() async {
   final httpClient = Dio();
   final notificationsCubit = kIsWeb
       ? null
-      : NotificationsCubit(
-          FlutterLocalNotificationsPlugin(),
-          notificationDetails: NotificationDetails(
-            android: AndroidNotificationDetails(
 
         listener: (context, state) => null,
         builder: (context, state) =>
