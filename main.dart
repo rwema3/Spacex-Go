@@ -36,7 +36,6 @@ Future<void> main() async {
   await notificationsCubit?.init();
 
   runApp(CherryApp(
-    notificationsCubit: notificationsCubit,
 
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
