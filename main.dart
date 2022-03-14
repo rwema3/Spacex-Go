@@ -15,8 +15,6 @@ import 'utils/index.dart';
 
 Future<void> main() async {
   final httpClient = Dio();
-  final notificationsCubit = kIsWeb
-      ? null
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
