@@ -55,7 +55,6 @@ Future<void> main() async {
   ));
 }
 
-/// Builds the neccesary cubits, as well as the home page.
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
