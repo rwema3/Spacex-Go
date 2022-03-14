@@ -32,7 +32,6 @@ Future<void> main() async {
             android: AndroidInitializationSettings('notification_launch'),
             iOS: IOSInitializationSettings(),
           ),
-        );
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
