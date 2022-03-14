@@ -23,4 +23,3 @@ Future<void> main() async {
             android: AndroidNotificationDetails(
               'channel.launches',
               'Launches notifications',
-              'Stay up-to-date with upcoming SpaceX launches',
