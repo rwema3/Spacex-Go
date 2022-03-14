@@ -27,11 +27,6 @@ Future<void> main() async {
               importance: Importance.high,
             ),
             iOS: IOSNotificationDetails(),
-          ),
-          initializationSettings: InitializationSettings(
-            android: AndroidInitializationSettings('notification_launch'),
-            iOS: IOSInitializationSettings(),
-          ),
 
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
