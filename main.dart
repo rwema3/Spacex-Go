@@ -21,4 +21,3 @@ Future<void> main() async {
           FlutterLocalNotificationsPlugin(),
           notificationDetails: NotificationDetails(
             android: AndroidNotificationDetails(
-              'channel.launches',
