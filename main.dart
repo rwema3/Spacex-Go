@@ -27,7 +27,6 @@ Future<void> main() async {
               importance: Importance.high,
             ),
             iOS: IOSNotificationDetails(),
-          ),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
