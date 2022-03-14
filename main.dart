@@ -20,7 +20,6 @@ Future<void> main() async {
       : NotificationsCubit(
           FlutterLocalNotificationsPlugin(),
           notificationDetails: NotificationDetails(
-            android: AndroidNotificationDetails(
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
