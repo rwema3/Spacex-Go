@@ -25,4 +25,3 @@ Future<void> main() async {
               'Launches notifications',
               'Stay up-to-date with upcoming SpaceX launches',
               importance: Importance.high,
-            ),
