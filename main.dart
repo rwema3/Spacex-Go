@@ -59,33 +59,7 @@ Future<void> main() async {
 class CherryApp extends StatelessWidget {
   final NotificationsCubit notificationsCubit;
   final VehiclesRepository vehiclesRepository;
-  final LaunchesRepository launchesRepository;
-  final AchievementsRepository achievementsRepository;
-  final CompanyRepository companyRepository;
-  final ChangelogRepository changelogRepository;
-
-  const CherryApp({
-    this.notificationsCubit,
-    this.vehiclesRepository,
-    this.launchesRepository,
-    this.achievementsRepository,
-    this.companyRepository,
-    this.changelogRepository,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        BlocProvider(create: (_) => ThemeCubit()),
-        BlocProvider(create: (_) => ImageQualityCubit()),
-        BlocProvider(create: (_) => BrowserCubit()),
-        BlocProvider.value(value: notificationsCubit),
-        BlocProvider(create: (_) => VehiclesCubit(vehiclesRepository)),
-        BlocProvider(create: (_) => LaunchesCubit(launchesRepository)),
-        BlocProvider(create: (_) => AchievementsCubit(achievementsRepository)),
-        BlocProvider(create: (_) => CompanyCubit(companyRepository)),
-        BlocProvider(create: (_) => ChangelogCubit(changelogRepository)),
+BlocProvider(create: (_) => ChangelogCubit(changelogRepository)),
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
