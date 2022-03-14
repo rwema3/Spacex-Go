@@ -50,7 +50,6 @@ Future<void> main() async {
       CompanyService(httpClient),
     ),
     changelogRepository: ChangelogRepository(
-      ChangelogService(httpClient),
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
