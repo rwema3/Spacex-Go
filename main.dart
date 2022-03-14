@@ -35,7 +35,6 @@ Future<void> main() async {
         );
   await notificationsCubit?.init();
 
-
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
         builder: (context, state) =>
