@@ -18,4 +18,3 @@ Future<void> main() async {
   final notificationsCubit = kIsWeb
       ? null
       : NotificationsCubit(
-          FlutterLocalNotificationsPlugin(),
