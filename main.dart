@@ -55,7 +55,6 @@ Future<void> main() async {
   ));
 }
 
-/// Builds the neccesary cubits, as well as the home page.
 BlocProvider(create: (_) => ChangelogCubit(changelogRepository)),
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
