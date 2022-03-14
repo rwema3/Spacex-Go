@@ -26,5 +26,3 @@ Future<void> main() async {
               'Stay up-to-date with upcoming SpaceX launches',
               importance: Importance.high,
             ),
-            iOS: IOSNotificationDetails(),
-
