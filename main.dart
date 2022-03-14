@@ -15,4 +15,3 @@ import 'utils/index.dart';
 
 Future<void> main() async {
   final httpClient = Dio();
-  final notificationsCubit = kIsWeb
