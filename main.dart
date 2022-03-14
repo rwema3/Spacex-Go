@@ -58,7 +58,6 @@ Future<void> main() async {
 /// Builds the neccesary cubits, as well as the home page.
 class CherryApp extends StatelessWidget {
   final NotificationsCubit notificationsCubit;
-  final VehiclesRepository vehiclesRepository;
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
