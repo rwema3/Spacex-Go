@@ -22,4 +22,3 @@ Future<void> main() async {
           notificationDetails: NotificationDetails(
             android: AndroidNotificationDetails(
               'channel.launches',
-              'Launches notifications',
