@@ -13,10 +13,6 @@ import 'repositories/index.dart';
 import 'services/index.dart';
 import 'utils/index.dart';
 
-Future<void> main() async {
-  final httpClient = Dio();
-  final notificationsCubit = kIsWeb
-      ? null
 
         listener: (context, state) => null,
         builder: (context, state) =>
