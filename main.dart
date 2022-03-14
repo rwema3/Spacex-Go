@@ -67,7 +67,6 @@ class CherryApp extends StatelessWidget {
   const CherryApp({
     this.notificationsCubit,
     this.vehiclesRepository,
-    this.launchesRepository,
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
