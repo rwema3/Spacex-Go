@@ -29,4 +29,3 @@ Future<void> main() async {
             iOS: IOSNotificationDetails(),
 
       ],
-      child: BlocConsumer<ThemeCubit, ThemeState>(
