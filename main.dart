@@ -61,7 +61,6 @@ class CherryApp extends StatelessWidget {
   final VehiclesRepository vehiclesRepository;
   final LaunchesRepository launchesRepository;
   final AchievementsRepository achievementsRepository;
-  final CompanyRepository companyRepository;
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
