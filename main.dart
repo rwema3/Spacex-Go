@@ -20,4 +20,3 @@ Future<void> main() async {
       : NotificationsCubit(
           FlutterLocalNotificationsPlugin(),
           notificationDetails: NotificationDetails(
-            android: AndroidNotificationDetails(
