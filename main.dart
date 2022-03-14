@@ -30,4 +30,3 @@ Future<void> main() async {
 
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
-        listener: (context, state) => null,
