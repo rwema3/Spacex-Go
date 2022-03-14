@@ -14,7 +14,7 @@ import 'services/index.dart';
 import 'utils/index.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBindi
+  WidgetsFlutterBind
   final httpClient = Dio();
   final notificationsCubit = kIsWeb
       ? null
