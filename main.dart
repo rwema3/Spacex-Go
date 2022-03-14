@@ -17,7 +17,6 @@ Future<void> main() async {
   final httpClient = Dio();
   final notificationsCubit = kIsWeb
       ? null
-      : NotificationsCubit(
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
