@@ -59,7 +59,6 @@ Future<void> main() async {
 class CherryApp extends StatelessWidget {
   final NotificationsCubit notificationsCubit;
   final VehiclesRepository vehiclesRepository;
-  final LaunchesRepository launchesRepository;
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
