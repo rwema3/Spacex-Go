@@ -43,7 +43,6 @@ Future<void> main() async {
     launchesRepository: LaunchesRepository(
       LaunchesService(httpClient),
     ),
-BlocProvider(create: (_) => ChangelogCubit(changelogRepository)),
       ],
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
