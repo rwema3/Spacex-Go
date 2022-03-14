@@ -21,7 +21,6 @@ Future<void> main() async {
           FlutterLocalNotificationsPlugin(),
           notificationDetails: NotificationDetails(
             android: AndroidNotificationDetails(
-              'channel.launches',
 
       child: BlocConsumer<ThemeCubit, ThemeState>(
         listener: (context, state) => null,
