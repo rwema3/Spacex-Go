@@ -13,4 +13,3 @@ import 'repositories/index.dart';
 import 'services/index.dart';
 import 'utils/index.dart';
 
-Future<void> main() async {
